@@ -7,7 +7,6 @@ import './index.scss'
 
 export default class Index extends Component {
 
-  // marks={ [ { value: '2018/11/11' } ] } 
   state = { min_date: '', selectdate: '', marks: [], markMap: [] }
 
   componentWillMount() {
